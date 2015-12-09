@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E8989D91C185CA4002CF3A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8989D81C185CA4002CF3A1 /* main.m */; };
+		0E8989DC1C185CA4002CF3A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8989DB1C185CA4002CF3A1 /* AppDelegate.m */; };
+		0E8989DF1C185CA4002CF3A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8989DE1C185CA4002CF3A1 /* ViewController.m */; };
+		0E8989E21C185CA4002CF3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8989E01C185CA4002CF3A1 /* Main.storyboard */; };
+		0E8989E41C185CA4002CF3A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8989E31C185CA4002CF3A1 /* Assets.xcassets */; };
+		0E8989E71C185CA4002CF3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8989E51C185CA4002CF3A1 /* LaunchScreen.storyboard */; };
+		0E8989F21C185CA4002CF3A1 /* SnowAndRainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8989F11C185CA4002CF3A1 /* SnowAndRainTests.m */; };
+		0E8989FD1C185CA4002CF3A1 /* SnowAndRainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8989FC1C185CA4002CF3A1 /* SnowAndRainUITests.m */; };
+		0E898A121C185E11002CF3A1 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E898A111C185E11002CF3A1 /* CAEmitterLayerView.m */; };
+		0E898A151C185E45002CF3A1 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E898A141C185E45002CF3A1 /* SnowView.m */; };
+		0E898A1A1C186003002CF3A1 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E898A191C186003002CF3A1 /* snow@2x.png */; };
+		0E898A1E1C186024002CF3A1 /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E898A1B1C186024002CF3A1 /* rain@2x.png */; };
+		0E898A1F1C186024002CF3A1 /* RainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E898A1D1C186024002CF3A1 /* RainView.m */; };
+		0E898A211C186075002CF3A1 /* alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E898A201C186075002CF3A1 /* alpha@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E8989EE1C185CA4002CF3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E8989CC1C185CA4002CF3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8989D31C185CA4002CF3A1;
+			remoteInfo = SnowAndRain;
+		};
+		0E8989F91C185CA4002CF3A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E8989CC1C185CA4002CF3A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8989D31C185CA4002CF3A1;
+			remoteInfo = SnowAndRain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E8989D41C185CA4002CF3A1 /* SnowAndRain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowAndRain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8989D81C185CA4002CF3A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E8989DA1C185CA4002CF3A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E8989DB1C185CA4002CF3A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E8989DD1C185CA4002CF3A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0E8989DE1C185CA4002CF3A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E8989E11C185CA4002CF3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E8989E31C185CA4002CF3A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E8989E61C185CA4002CF3A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E8989E81C185CA4002CF3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8989ED1C185CA4002CF3A1 /* SnowAndRainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowAndRainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8989F11C185CA4002CF3A1 /* SnowAndRainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowAndRainTests.m; sourceTree = "<group>"; };
+		0E8989F31C185CA4002CF3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8989F81C185CA4002CF3A1 /* SnowAndRainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowAndRainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E8989FC1C185CA4002CF3A1 /* SnowAndRainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowAndRainUITests.m; sourceTree = "<group>"; };
+		0E8989FE1C185CA4002CF3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E898A101C185E11002CF3A1 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
+		0E898A111C185E11002CF3A1 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
+		0E898A131C185E45002CF3A1 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		0E898A141C185E45002CF3A1 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		0E898A191C186003002CF3A1 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		0E898A1B1C186024002CF3A1 /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		0E898A1C1C186024002CF3A1 /* RainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainView.h; sourceTree = "<group>"; };
+		0E898A1D1C186024002CF3A1 /* RainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainView.m; sourceTree = "<group>"; };
+		0E898A201C186075002CF3A1 /* alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E8989D11C185CA4002CF3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989EA1C185CA4002CF3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989F51C185CA4002CF3A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8989CB1C185CA4002CF3A1 = {
+			isa = PBXGroup;
+			children = (
+				0E8989D61C185CA4002CF3A1 /* SnowAndRain */,
+				0E8989F01C185CA4002CF3A1 /* SnowAndRainTests */,
+				0E8989FB1C185CA4002CF3A1 /* SnowAndRainUITests */,
+				0E8989D51C185CA4002CF3A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E8989D51C185CA4002CF3A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E8989D41C185CA4002CF3A1 /* SnowAndRain.app */,
+				0E8989ED1C185CA4002CF3A1 /* SnowAndRainTests.xctest */,
+				0E8989F81C185CA4002CF3A1 /* SnowAndRainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E8989D61C185CA4002CF3A1 /* SnowAndRain */ = {
+			isa = PBXGroup;
+			children = (
+				0E8989DA1C185CA4002CF3A1 /* AppDelegate.h */,
+				0E8989DB1C185CA4002CF3A1 /* AppDelegate.m */,
+				0E8989DD1C185CA4002CF3A1 /* ViewController.h */,
+				0E8989DE1C185CA4002CF3A1 /* ViewController.m */,
+				0E898A181C185F28002CF3A1 /* SnowAndRain */,
+				0E8989E01C185CA4002CF3A1 /* Main.storyboard */,
+				0E8989E31C185CA4002CF3A1 /* Assets.xcassets */,
+				0E8989E51C185CA4002CF3A1 /* LaunchScreen.storyboard */,
+				0E8989E81C185CA4002CF3A1 /* Info.plist */,
+				0E8989D71C185CA4002CF3A1 /* Supporting Files */,
+			);
+			path = SnowAndRain;
+			sourceTree = "<group>";
+		};
+		0E8989D71C185CA4002CF3A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E8989D81C185CA4002CF3A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E8989F01C185CA4002CF3A1 /* SnowAndRainTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E8989F11C185CA4002CF3A1 /* SnowAndRainTests.m */,
+				0E8989F31C185CA4002CF3A1 /* Info.plist */,
+			);
+			path = SnowAndRainTests;
+			sourceTree = "<group>";
+		};
+		0E8989FB1C185CA4002CF3A1 /* SnowAndRainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E8989FC1C185CA4002CF3A1 /* SnowAndRainUITests.m */,
+				0E8989FE1C185CA4002CF3A1 /* Info.plist */,
+			);
+			path = SnowAndRainUITests;
+			sourceTree = "<group>";
+		};
+		0E898A181C185F28002CF3A1 /* SnowAndRain */ = {
+			isa = PBXGroup;
+			children = (
+				0E898A101C185E11002CF3A1 /* CAEmitterLayerView.h */,
+				0E898A111C185E11002CF3A1 /* CAEmitterLayerView.m */,
+				0E898A131C185E45002CF3A1 /* SnowView.h */,
+				0E898A141C185E45002CF3A1 /* SnowView.m */,
+				0E898A191C186003002CF3A1 /* snow@2x.png */,
+				0E898A1B1C186024002CF3A1 /* rain@2x.png */,
+				0E898A1C1C186024002CF3A1 /* RainView.h */,
+				0E898A1D1C186024002CF3A1 /* RainView.m */,
+				0E898A201C186075002CF3A1 /* alpha@2x.png */,
+			);
+			name = SnowAndRain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E8989D31C185CA4002CF3A1 /* SnowAndRain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E898A011C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRain" */;
+			buildPhases = (
+				0E8989D01C185CA4002CF3A1 /* Sources */,
+				0E8989D11C185CA4002CF3A1 /* Frameworks */,
+				0E8989D21C185CA4002CF3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowAndRain;
+			productName = SnowAndRain;
+			productReference = 0E8989D41C185CA4002CF3A1 /* SnowAndRain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E8989EC1C185CA4002CF3A1 /* SnowAndRainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E898A041C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRainTests" */;
+			buildPhases = (
+				0E8989E91C185CA4002CF3A1 /* Sources */,
+				0E8989EA1C185CA4002CF3A1 /* Frameworks */,
+				0E8989EB1C185CA4002CF3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E8989EF1C185CA4002CF3A1 /* PBXTargetDependency */,
+			);
+			name = SnowAndRainTests;
+			productName = SnowAndRainTests;
+			productReference = 0E8989ED1C185CA4002CF3A1 /* SnowAndRainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E8989F71C185CA4002CF3A1 /* SnowAndRainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E898A071C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRainUITests" */;
+			buildPhases = (
+				0E8989F41C185CA4002CF3A1 /* Sources */,
+				0E8989F51C185CA4002CF3A1 /* Frameworks */,
+				0E8989F61C185CA4002CF3A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E8989FA1C185CA4002CF3A1 /* PBXTargetDependency */,
+			);
+			name = SnowAndRainUITests;
+			productName = SnowAndRainUITests;
+			productReference = 0E8989F81C185CA4002CF3A1 /* SnowAndRainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E8989CC1C185CA4002CF3A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Devin;
+				TargetAttributes = {
+					0E8989D31C185CA4002CF3A1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					0E8989EC1C185CA4002CF3A1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0E8989D31C185CA4002CF3A1;
+					};
+					0E8989F71C185CA4002CF3A1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 0E8989D31C185CA4002CF3A1;
+					};
+				};
+			};
+			buildConfigurationList = 0E8989CF1C185CA4002CF3A1 /* Build configuration list for PBXProject "SnowAndRain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E8989CB1C185CA4002CF3A1;
+			productRefGroup = 0E8989D51C185CA4002CF3A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8989D31C185CA4002CF3A1 /* SnowAndRain */,
+				0E8989EC1C185CA4002CF3A1 /* SnowAndRainTests */,
+				0E8989F71C185CA4002CF3A1 /* SnowAndRainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E8989D21C185CA4002CF3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E898A1E1C186024002CF3A1 /* rain@2x.png in Resources */,
+				0E898A211C186075002CF3A1 /* alpha@2x.png in Resources */,
+				0E8989E71C185CA4002CF3A1 /* LaunchScreen.storyboard in Resources */,
+				0E8989E41C185CA4002CF3A1 /* Assets.xcassets in Resources */,
+				0E8989E21C185CA4002CF3A1 /* Main.storyboard in Resources */,
+				0E898A1A1C186003002CF3A1 /* snow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989EB1C185CA4002CF3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989F61C185CA4002CF3A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E8989D01C185CA4002CF3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E898A151C185E45002CF3A1 /* SnowView.m in Sources */,
+				0E898A121C185E11002CF3A1 /* CAEmitterLayerView.m in Sources */,
+				0E898A1F1C186024002CF3A1 /* RainView.m in Sources */,
+				0E8989DF1C185CA4002CF3A1 /* ViewController.m in Sources */,
+				0E8989DC1C185CA4002CF3A1 /* AppDelegate.m in Sources */,
+				0E8989D91C185CA4002CF3A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989E91C185CA4002CF3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8989F21C185CA4002CF3A1 /* SnowAndRainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E8989F41C185CA4002CF3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E8989FD1C185CA4002CF3A1 /* SnowAndRainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E8989EF1C185CA4002CF3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8989D31C185CA4002CF3A1 /* SnowAndRain */;
+			targetProxy = 0E8989EE1C185CA4002CF3A1 /* PBXContainerItemProxy */;
+		};
+		0E8989FA1C185CA4002CF3A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8989D31C185CA4002CF3A1 /* SnowAndRain */;
+			targetProxy = 0E8989F91C185CA4002CF3A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E8989E01C185CA4002CF3A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8989E11C185CA4002CF3A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E8989E51C185CA4002CF3A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E8989E61C185CA4002CF3A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E8989FF1C185CA4002CF3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E898A001C185CA4002CF3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E898A021C185CA4002CF3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnowAndRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E898A031C185CA4002CF3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnowAndRain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E898A051C185CA4002CF3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnowAndRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowAndRain.app/SnowAndRain";
+			};
+			name = Debug;
+		};
+		0E898A061C185CA4002CF3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnowAndRainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowAndRain.app/SnowAndRain";
+			};
+			name = Release;
+		};
+		0E898A081C185CA4002CF3A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnowAndRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnowAndRain;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0E898A091C185CA4002CF3A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnowAndRainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Devin.www.SnowAndRainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnowAndRain;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E8989CF1C185CA4002CF3A1 /* Build configuration list for PBXProject "SnowAndRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E8989FF1C185CA4002CF3A1 /* Debug */,
+				0E898A001C185CA4002CF3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E898A011C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E898A021C185CA4002CF3A1 /* Debug */,
+				0E898A031C185CA4002CF3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E898A041C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E898A051C185CA4002CF3A1 /* Debug */,
+				0E898A061C185CA4002CF3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0E898A071C185CA4002CF3A1 /* Build configuration list for PBXNativeTarget "SnowAndRainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E898A081C185CA4002CF3A1 /* Debug */,
+				0E898A091C185CA4002CF3A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E8989CC1C185CA4002CF3A1 /* Project object */;
+}
